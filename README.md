@@ -1,8 +1,9 @@
-# hoplon-modern-business
+# Site for AGI - RT ⑊ IS
 
-The StartBootstrap "Modern (Dark) Business" template ported to [Hoplon][4]
+This site is based off of the [StartBootstrap][5] [Modern (Dark) Business][6]
+template that was ported to [Hoplon][4].
 
-[![screenshot](https://raw2.github.com/oubiwann/hoplon-modern-business/master/resources/screenshots/main-page-small.png)](https://raw2.github.com/oubiwann/hoplon-modern-business/master/resources/screenshots/main-page.png)
+[![screenshot](https://raw2.github.com/oubiwann/agirtis-site/master/resources/screenshots/main-page-small.png)](https://raw2.github.com/oubiwann/agirtis-site/master/resources/screenshots/main-page.png)
 
 ## Dependencies
 
@@ -29,10 +30,12 @@ directory.
 
 1. Open [localhost:9999][3] in your browser to view the rendered html.
 
-4. Hack on your ``src/*.cljs.hl`` files!
+1. Hack on your ``src/*.cljs.hl`` files!
 
 
 [1]: https://github.com/tailrecursion/boot
 [2]: https://github.com/technomancy/leiningen
 [3]: http://localhost:9999/
 [4]: http://hoplon.io/
+[5]: http://startbootstrap.com/
+[6]: https://github.com/oubiwann/hoplon-modern-business
