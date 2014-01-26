@@ -1,4 +1,4 @@
-{:project hoplon-modern-business
+{:project agirtis-site
  :version "0.1.0-SNAPSHOT"
  :dependencies [[tailrecursion/boot.core "1.2.3"]
                 [tailrecursion/boot.task "1.0.2"]

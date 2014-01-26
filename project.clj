@@ -1,6 +1,6 @@
-(defproject hoplon-modern-business "0.1.0-SNAPSHOT"
-  :description "The StartBootstrap 'Modern Business' template ported to Hoplon"
-  :url "http://github.com/oubiwann/hoplon-modern-business"
+(defproject agirtis-site "0.1.0-SNAPSHOT"
+  :description "Site for AGI - RT ⑊ IS"
+  :url "http://github.com/oubiwann/agirtis-site"
   :license {:name "Apache V2 License"
             :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
   :dependencies [[org.clojure/clojure "1.5.1"]
