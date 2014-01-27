@@ -13,12 +13,14 @@
     (meta :name "description" :content "")
     (meta :name "keywords" :content "")
     (meta :name "author" :content "")
-    (title "Modern Dark Business - Start Bootstrap Template")
+    (title "AGI RT ⑊ IS - Home")
+    (link :rel "shortcut icon" :href "/images/logos/AGI-RackerTools-InfrastructureServices-Logo-favicon.jpg")
     ;; Bootstrap core CSS
     (link :rel "stylesheet" :href "css/bootstrap-slate.css")
     ;; Add custom CSS here
     (link :rel "stylesheet" :href "css/modern-business.css")
     (link :rel "stylesheet" :href "font-awesome/css/font-awesome.min.css")
+    (link :rel "stylesheet" :href "css/agirtis.css")
     ;; js loading
     (script :src "js/jquery-1.11.0.min.js")
     (script :src "js/bootstrap.js")
