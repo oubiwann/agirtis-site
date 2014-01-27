@@ -12,20 +12,27 @@
     (div :class "carousel-inner"
       (div :class "item active"
         (div :class "fill"
-             :style "background-image:url('http://placehold.it/1900x1080&text=Slide One');")
+             :style "background-image:url('/images/desert-rain-crop-5.jpg');")
         (div :class "carousel-caption"
-          (h1 "Modern Dark Business - A Bootstrap 3 Template")))
+          (h1 "We Bring the Rain")
+          (h3 "Racker Tools ⑊ Infrastructure Services")))
       (div :class "item"
         (div :class "fill"
-             :style "background-image:url('http://placehold.it/1900x1080&text=Slide Two');")
+             :style "background-image:url('/images/milky-way-crop-1.jpg');")
         (div :class "carousel-caption"
-          (h1 "Ready to Style & Add Content")))
+          (h1 "Building the Future of Rackspace")
+          (h3 "Scalable, Reliable, Distributed Infrastructure "
+              (br)
+              "for our Fanatical Support Teams")))
       (div :class "item"
         (div :class "fill"
-             :style "background-image:url('http://placehold.it/1900x1080&text=Slide Three');")
+             :style "background-image:url('/images/river-grand-canyon-2-crop-1.jpg');")
         (div :class "carousel-caption"
-          (h1 "Additional Layout Options at "
-            (a :href "http://startbootstrap.com" "http://startbootstrap.com")))))
+          (h1 "Intelligent Infrastructure for Rackers")
+          (h3 "Putting Quality Data in front of our Support Teams "
+              (br)
+              "for better, faster service")))
+      )
     ; controls
     (a :class "left carousel-control" :href "#myCarousel" :data-slide "prev"
       (span :class "icon-prev"))
