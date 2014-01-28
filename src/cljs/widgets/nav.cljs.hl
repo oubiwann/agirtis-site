@@ -14,40 +14,46 @@
         ;; You'll want to use a responsive image option so this logo looks
         ;; good on devices - I recommend using something like retina.js (do a
         ;; quick Google search for it and you'll find it
-        (a :class "navbar-brand" :href "index.html" "Modern Dark Business"))
+        (a :class "navbar-brand" :href "/index.html" "AGI RT ⑊ IS"))
+          ;;(img :class "menu-logo"
+          ;;     :src "/images/logos/AGI-RackerTools-InfrastructureServices-Logo-x55.jpg")))
       ;; Collect the nav links, forms, and other content for toggling
       (div :class "collapse navbar-collapse navbar-ex1-collapse"
         (ul :class "nav navbar-nav navbar-right"
+          (li (a :href "focus.html" "Focus"))
+          (li (a :href "expertise.html" "Expertise"))
+          (li :class "dropdown"
+            (a :href "#" :class "dropdown-toggle"
+               :data-toggle "dropdown" "Teams" (b :class "caret"))
+            (ul :class "dropdown-menu"
+              (li (a :href "teams/product.html" "Product"))
+              (li (a :href "teams/agi.html" "AGI"))
+              (li (a :href "teams/rt.html" "Racker Tools"))
+              (li (a :href "teams/rtis.html" "Infrastructure Services"))
+              (li (a :href "teams/data-analytics.html" "\u00B7 Data Analytics"))
+              (li (a :href "teams/encore-integration.html" "\u00B7 Encore Integration"))
+              (li (a :href "teams/product-stack.html" "\u00B7 Product Stack"))
+              (li (a :href "teams/distributed-systems.html" "\u00B7 Distributed Systems"))))
+          (li :class "dropdown"
+            (a :href "#" :class "dropdown-toggle"
+               :data-toggle "dropdown" "Projects" (b :class "caret"))
+            (ul :class "dropdown-menu"
+              (li (a :href "projects/earlt-stage.html" "Early Stage/Research"))
+              (li (a :href "projects/in-dev.html" "In-Development"))
+              (li (a :href "projects/supported.html" "Deployed"))
+              (li (a :href "projects/previous.html" "Previous/EOLed"))))
+          (li :class "dropdown"
+            (a :href "#" :class "dropdown-toggle"
+               :data-toggle "dropdown" "Events" (b :class "caret"))
+            (ul :class "dropdown-menu"
+              (li (a :href "events/pairing-days.html" "Pairing Days"))
+              (li (a :href "events/journel-club.html" "Journal Club"))
+              (li (a :href "events/code-spelunk.html" "Code Spelunk"))
+              (li (a :href "events/hack-days.html" "Hack Days"))
+              (li (a :href "events/rtsi-allhands.html" "RT⑊IS All Hands"))
+              (li (a :href "events/hack-weeks.html" "Hack Weeks"))))
           (li (a :href "about.html" "About"))
-          (li (a :href "services.html" "Services"))
-          (li (a :href "contact.html" "Contact"))
-          (li :class "dropdown"
-            (a :href "#" :class "dropdown-toggle"
-               :data-toggle "dropdown" "Portfolio" (b :class "caret"))
-            (ul :class "dropdown-menu"
-              (li (a :href "portfolio-1-col.html" "1 Column Portfolio"))
-              (li (a :href "portfolio-2-col.html" "2 Column Portfolio"))
-              (li (a :href "portfolio-3-col.html" "3 Column Portfolio"))
-              (li (a :href "portfolio-4-col.html" "4 Column Portfolio"))
-              (li (a :href "portfolio-item.html" "Single Portfolio Item"))))
-          (li :class "dropdown"
-            (a :href "#" :class "dropdown-toggle"
-               :data-toggle "dropdown" "Blog" (b :class "caret"))
-            (ul :class "dropdown-menu"
-              (li (a :href "blog-home-1.html" "Blog Home 1"))
-              (li (a :href "blog-home-2.html" "Blog Home 2"))
-              (li (a :href "blog-post.html" "Blog Post"))))
-          (li :class "dropdown"
-            (a :href "#" :class "dropdown-toggle"
-               :data-toggle "dropdown" "Other Pages" (b :class "caret"))
-            (ul :class "dropdown-menu"
-              (li (a :href "full-width.html" "Full Width Page"))
-              (li (a :href "full-width-back.html" "Full Width Page w/back"))
-              (li (a :href "sidebar.html" "Sidebar Page"))
-              (li (a :href "sidebar-back.html" "Sidebar Page w/back"))
-              (li (a :href "faq.html" "FAQ"))
-              (li (a :href "404.html" "404"))
-              (li (a :href "pricing.html" "Pricing Page")))))))))
+          )))))
 
 (defn sidebar-menu []
   (div :class "col-md-3 col-sm-4 sidebar"
