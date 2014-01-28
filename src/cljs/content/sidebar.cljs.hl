@@ -3,10 +3,10 @@
             [widgets.section :as section]))
 
 
-(defn get-section-with-back []
+(defn get-section-with-back [menu-func]
   (div :class "container"
     (div :class "row well"
-      (nav/sidebar-back-menu)
+      (menu-func)
       (section/container-sidebar
         :title "Sidebar Page"
         :subtitle "For Deeper Customization"
@@ -23,10 +23,10 @@
            "pellentesque feugiat leo a adipiscing. Pellentesque quis "
            "tristique eros, sed rutrum mauris.")))))
 
-(defn get-section []
+(defn get-section [menu-func]
   (div :class "container"
     (div :class "row"
-      (nav/sidebar-menu)
+      (menu-func)
       (section/container-sidebar
         :title "Sidebar Page"
         :subtitle "For Deeper Customization"
