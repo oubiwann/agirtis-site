@@ -55,55 +55,32 @@
           (li (a :href "about.html" "About"))
           )))))
 
-(defn sidebar-menu []
+(defn teams-sidebar-menu []
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
-      (li (a :href "index.html" "Home"))
-      (li (a :href "about.html" "About"))
-      (li (a :href "services.html" "Services"))
-      (li (a :href "contact.html" "Contact"))
-      (li :class "disabled" (a :href "#" "Portfolio"))
-      (li (a :href "portfolio-1-col.html" "1 Column Portfolio"))
-      (li (a :href "portfolio-2-col.html" "2 Column Portfolio"))
-      (li (a :href "portfolio-3-col.html" "3 Column Portfolio"))
-      (li (a :href "portfolio-4-col.html" "4 Column Portfolio"))
-      (li (a :href "portfolio-item.html" "Single Portfolio Item"))
-      (li :class "disabled" (a :href "#" "Blog"))
-      (li (a :href "blog-home-1.html" "Blog Home 1"))
-      (li (a :href "blog-home-2.html" "Blog Home 2"))
-      (li (a :href "blog-post.html" "Blog Post"))
-      (li :class "disabled" (a :href "#" "Other Pages"))
-      (li (a :href "full-width.html" "Full Width Page"))
-      (li (a :href "full-width-back.html" "Full Width Page w/back"))
-      (li :class "active" (a :href "sidebar.html" "Sidebar Page"))
-      (li (a :href "sidebar-back.html" "Sidebar Page w/back"))
-      (li (a :href "faq.html" "FAQ"))
-      (li (a :href "404.html" "404"))
-      (li (a :href "pricing.html" "Pricing Table")))))
+      (li (a :href "teams/product.html" "Product"))
+      (li (a :href "teams/agi.html" "AGI"))
+      (li (a :href "teams/rt.html" "Racker Tools"))
+      (li (a :href "teams/rtis.html" "Infrastructure Services"))
+      (li (a :href "teams/data-analytics.html" "\u00B7 Data Analytics"))
+      (li (a :href "teams/encore-integration.html" "\u00B7 Encore Integration"))
+      (li (a :href "teams/product-stack.html" "\u00B7 Product Stack"))
+      (li (a :href "teams/distributed-systems.html" "\u00B7 Distributed Systems")))))
 
-
-(defn sidebar-back-menu []
+(defn product-sidebar-menu []
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
-      (li (a :href "index.html" "Home"))
-      (li (a :href "about.html" "About"))
-      (li (a :href "services.html" "Services"))
-      (li (a :href "contact.html" "Contact"))
-      (li :class "disabled" (a :href "#" "Portfolio"))
-      (li (a :href "portfolio-1-col.html" "1 Column Portfolio"))
-      (li (a :href "portfolio-2-col.html" "2 Column Portfolio"))
-      (li (a :href "portfolio-3-col.html" "3 Column Portfolio"))
-      (li (a :href "portfolio-4-col.html" "4 Column Portfolio"))
-      (li (a :href "portfolio-item.html" "Single Portfolio Item"))
-      (li :class "disabled" (a :href "#" "Blog"))
-      (li (a :href "blog-home-1.html" "Blog Home 1"))
-      (li (a :href "blog-home-2.html" "Blog Home 2"))
-      (li (a :href "blog-post.html" "Blog Post"))
-      (li :class "disabled" (a :href "#" "Other Pages"))
-      (li (a :href "full-width.html" "Full Width Page"))
-      (li (a :href "full-width-back.html" "Full Width Page w/back"))
-      (li (a :href "sidebar.html" "Sidebar Page"))
-      (li :class "active" (a :href "sidebar-back.html" "Sidebar Page w/back"))
-      (li (a :href "faq.html" "FAQ"))
-      (li (a :href "404.html" "404"))
-      (li (a :href "pricing.html" "Pricing Table")))))
+      (li (a :href "projects/earlt-stage.html" "Early Stage/Research"))
+      (li (a :href "projects/in-dev.html" "In-Development"))
+      (li (a :href "projects/supported.html" "Deployed"))
+      (li (a :href "projects/previous.html" "Previous/EOLed")))))
+
+(defn events-sidebar-menu []
+  (div :class "col-md-3 col-sm-4 sidebar"
+    (ul :class "nav nav-stacked nav-pills"
+      (li (a :href "events/pairing-days.html" "Pairing Days"))
+      (li (a :href "events/journel-club.html" "Journal Club"))
+      (li (a :href "events/code-spelunk.html" "Code Spelunk"))
+      (li (a :href "events/hack-days.html" "Hack Days"))
+      (li (a :href "events/rtsi-allhands.html" "RT⑊IS All Hands"))
+      (li (a :href "events/hack-weeks.html" "Hack Weeks")))))
