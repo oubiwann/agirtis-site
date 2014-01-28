@@ -31,4 +31,4 @@
     ;; main content
     (content/get-section)
     ;; footer
-    (footer/main "Copyright © RT⑊IS, 2014")))
+    (footer/main "Copyright © RT ⑊ IS, 2014")))

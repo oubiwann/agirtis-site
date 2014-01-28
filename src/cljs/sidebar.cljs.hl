@@ -29,4 +29,4 @@
     ;; main content
     (content/get-section)
     ;; footer
-    (footer/main "Copyright © Your Dark Company, 2014")))
+    (footer/main "Copyright © RT ⑊ IS, 2014")))
