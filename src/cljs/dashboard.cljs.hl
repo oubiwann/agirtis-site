@@ -12,7 +12,7 @@
     (meta :name "description" :content "")
     (meta :name "keywords" :content "")
     (meta :name "author" :content "")
-    (title "AGI RT ⑊ IS - About")
+    (title "AGI RT ⑊ IS - Dashboard")
     (link :rel "shortcut icon" :href "/images/logos/AGI-RackerTools-InfrastructureServices-Logo-favicon.jpg")
     ;; Bootstrap core CSS
     (link :rel "stylesheet" :href "/css/bootstrap-slate.css")
