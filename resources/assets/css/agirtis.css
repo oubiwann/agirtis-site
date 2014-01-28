@@ -5,3 +5,44 @@ img.menu-logo {
   line-height: 0;
   border-image-width: 0 0 0 0;
 }
+
+a.navbar-brand {
+  color: #799d84;
+}
+
+ul.navbar-right li a {
+  color: #799d84;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #8697ae;
+}
+
+div.carousel h1,
+div.carousel h2,
+div.carousel h4,
+div.carousel h5,
+div.carousel h6 {
+  color: #fff;
+}
+
+div.carousel h3 {
+  color: #b3c0d0;
+}
+
+div.well h1,
+div.well h2,
+div.well h3,
+div.well h4,
+div.well h5,
+div.well h6 {
+  color: #799d84;
+}
+
+.breadcrumb a {
+  color: #799d84;
+}
+
+footer {
+  color: #8697ae;
+}
