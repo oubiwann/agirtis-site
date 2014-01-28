@@ -18,7 +18,7 @@
           (h3 "Racker Tools ⑊ Infrastructure Services")))
       (div :class "item"
         (div :class "fill"
-             :style "background-image:url('/images/milky-way-crop-1.jpg');")
+             :style "background-image:url('/images/milky-way-crop-8.jpg');")
         (div :class "carousel-caption"
           (h1 "Building the Future of Rackspace")
           (h3 "Scalable, Reliable, Distributed Infrastructure "
