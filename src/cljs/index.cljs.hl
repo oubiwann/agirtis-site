@@ -16,15 +16,15 @@
     (title "AGI RT ⑊ IS - Home")
     (link :rel "shortcut icon" :href "/images/logos/AGI-RackerTools-InfrastructureServices-Logo-favicon.jpg")
     ;; Bootstrap core CSS
-    (link :rel "stylesheet" :href "css/bootstrap-slate.css")
+    (link :rel "stylesheet" :href "/css/bootstrap-slate.css")
     ;; Add custom CSS here
-    (link :rel "stylesheet" :href "css/modern-business.css")
-    (link :rel "stylesheet" :href "font-awesome/css/font-awesome.min.css")
-    (link :rel "stylesheet" :href "css/agirtis.css")
+    (link :rel "stylesheet" :href "/css/modern-business.css")
+    (link :rel "stylesheet" :href "/font-awesome/css/font-awesome.min.css")
+    (link :rel "stylesheet" :href "/css/agirtis.css")
     ;; js loading
-    (script :src "js/jquery-1.11.0.min.js")
-    (script :src "js/bootstrap.js")
-    (script :src "js/modern-business.js"))
+    (script :src "/js/jquery-1.11.0.min.js")
+    (script :src "/js/bootstrap.js")
+    (script :src "/js/modern-business.js"))
 
   (body
     ;; navigation menu
