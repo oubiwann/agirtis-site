@@ -47,7 +47,7 @@
                :data-toggle "dropdown" "Events" (b :class "caret"))
             (ul :class "dropdown-menu"
               (li (a :href "/events/pairing-days.html" "Pairing Days"))
-              (li (a :href "/events/journel-club.html" "Journal Club"))
+              (li (a :href "/events/journal-club.html" "Journal Club"))
               (li (a :href "/events/code-spelunk.html" "Code Spelunk"))
               (li (a :href "/events/hack-days.html" "Hack Days"))
               (li (a :href "/events/rtsi-allhands.html" "RT⑊IS All Hands"))
@@ -78,7 +78,7 @@
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
       (li (a :href "/events/pairing-days.html" "Pairing Days"))
-      (li (a :href "/events/journel-club.html" "Journal Club"))
+      (li (a :href "/events/journal-club.html" "Journal Club"))
       (li (a :href "/events/code-spelunk.html" "Code Spelunk"))
       (li (a :href "/events/hack-days.html" "Hack Days"))
       (li (a :href "/events/rtsi-allhands.html" "RT⑊IS All Hands"))
