@@ -26,7 +26,7 @@
               "for our Fanatical Support Teams")))
       (div :class "item"
         (div :class "fill"
-             :style "background-image:url('/images/river-grand-canyon-2-crop-1.jpg');")
+             :style "background-image:url('/images/river-grand-canyon-2-crop-2.jpg');")
         (div :class "carousel-caption"
           (h1 "Intelligent Infrastructure for Rackers")
           (h3 "Putting Quality Data in front of our Support Teams "
