@@ -3,7 +3,7 @@
 This site is based off of the [StartBootstrap][5] [Modern (Dark) Business][6]
 template that was ported to [Hoplon][4].
 
-[![screenshot](https://raw2.github.com/oubiwann/agirtis-site/master/resources/screenshots/main-page-small.png)](https://raw2.github.com/oubiwann/agirtis-site/master/resources/screenshots/main-page.png)
+[![screenshot](https://raw2.github.com/oubiwann/agirtis-site/master/resources/screenshots/main-page-small.jpg)](https://raw2.github.com/oubiwann/agirtis-site/master/resources/screenshots/main-page.jpg)
 
 ## Dependencies
 
