@@ -14,6 +14,10 @@ ul.navbar-right li a {
   color: #799d84;
 }
 
+ul.navbar-right li a.special {
+  color: #8697ae;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: #8697ae;
 }
