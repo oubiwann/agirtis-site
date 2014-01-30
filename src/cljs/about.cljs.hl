@@ -1,5 +1,5 @@
 (page "about.html"
-  (:require [content.full-width :as content]
+  (:require [content.about :as content]
             [widgets.footer :as footer]
             [widgets.nav :as nav]))
 
@@ -29,6 +29,6 @@
     ;; navigation menu
     (nav/main-menu)
     ;; main content
-    (content/get-section)
+    (content/get-about-sections)
     ;; footer
     (footer/main "Copyright © RT ⑊ IS, 2014")))

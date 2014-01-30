@@ -1,5 +1,5 @@
 (page "dashboard.html"
-  (:require [content.full-width :as content]
+  (:require [content.dashboard :as content]
             [widgets.footer :as footer]
             [widgets.nav :as nav]))
 

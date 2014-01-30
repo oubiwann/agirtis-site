@@ -32,10 +32,9 @@
     ;; carousel
     (carousel/hero)
     ;; main content
-    (content/get-section-1)
-    (content/get-section-2)
-    (content/get-section-3)
-    (content/get-section-4)
-    (content/get-section-5)
+    (content/get-summary-section)
+    (content/get-teaser-section)
+    (content/get-projects-section)
+    (content/get-next-section)
     ;; footer
     (footer/main "Copyright © RT ⑊ IS, 2014")))

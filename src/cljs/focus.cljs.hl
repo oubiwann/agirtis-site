@@ -1,5 +1,5 @@
 (page "focus.html"
-  (:require [content.full-width :as content]
+  (:require [content.about :as content]
             [widgets.footer :as footer]
             [widgets.nav :as nav]))
 
@@ -29,6 +29,6 @@
     ;; navigation menu
     (nav/main-menu)
     ;; main content
-    (content/get-section-with-back)
+    (content/get-focus-sections)
     ;; footer
     (footer/main "Copyright © RT ⑊ IS, 2014")))
