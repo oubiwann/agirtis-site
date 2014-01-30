@@ -7,15 +7,22 @@
     (ol :class "carousel-indicators"
       (li :data-target "#myCarousel" :data-slide-to "0" :class "active")
       (li :data-target "#myCarousel" :data-slide-to "1")
-      (li :data-target "#myCarousel" :data-slide-to "2"))
+      (li :data-target "#myCarousel" :data-slide-to "2")
+      (li :data-target "#myCarousel" :data-slide-to "3"))
     ; wrapper for slides
     (div :class "carousel-inner"
       (div :class "item active"
         (div :class "fill"
+             :style "background-image:url('/images/desert-rain-logo-crop-3.jpg');")
+        (div :class "carousel-caption"
+          (br)
+          (h1 "Racker Tools ⑊ Infrastructure Services")))
+      (div :class "item"
+        (div :class "fill"
              :style "background-image:url('/images/desert-rain-crop-5.jpg');")
         (div :class "carousel-caption"
           (h1 "We Bring the Rain")
-          (h3 "Racker Tools ⑊ Infrastructure Services")))
+          (h3 "Infrastructure Supporting the Business")))
       (div :class "item"
         (div :class "fill"
              :style "background-image:url('/images/milky-way-crop-8.jpg');")
@@ -31,8 +38,7 @@
           (h1 "Intelligent Infrastructure for Rackers")
           (h3 "Putting Quality Data in front of our Support Teams "
               (br)
-              "for better, faster service")))
-      )
+              "for better, faster service"))))
     ; controls
     (a :class "left carousel-control" :href "#myCarousel" :data-slide "prev"
       (span :class "icon-prev"))
