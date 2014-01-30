@@ -50,3 +50,30 @@ div.well h6 {
 footer {
   color: #8697ae;
 }
+
+p, div.hiviz {
+  font-size: 120%;
+}
+
+p.large-text {
+  font-size: 150%;
+}
+
+div.hiviz ul li {
+  text-indent: 1em;
+  list-style-position: inside;
+}
+
+img.inset-left {
+  float: left;
+  margin: 0 1em 0.5em 0.25em;
+  height: 200px;
+  width: auto;
+}
+
+img.inset-right {
+  float: right;
+  margin: 0 0 1em 1em;
+  height: 200px;
+  width: auto;
+}
