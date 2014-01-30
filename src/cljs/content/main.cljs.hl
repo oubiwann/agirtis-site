@@ -3,45 +3,46 @@
             [widgets.section :as section]))
 
 
-(defn get-section-1 []
+(defn get-summary-section []
   (section/row
-    (div :class "col-lg-4 col-md-4"
-      (h3 (i :class "fa fa-check-circle") " Bootstrap 3 Built")
-      (p "The 'Modern Dark Business' website template by "
-         (a :href "http://startbootstrap.com" "Start Bootstrap")
-         " is built with "
-         (a :href "http://getbootstrap.com" "Bootstrap 3") ". "
-         "Make sure you're up to date with latest Bootstrap "
-         "documentation!"))
-    (div :class "col-lg-4 col-md-4"
-      (h3 (i :class "fa fa-pencil") " Ready to Style & Edit")
-      (p "You're ready to go with this pre-built page structure, now all "
-         "you need to do is add your own custom stylings! You can see "
-         "some free themes over at "
-         (a :href "http://bootswatch.com" "Bootswatch") ", or come up "
-         "with your own using "
-         (a :href "http://getbootstrap.com/customize/"
-                  "the Bootstrap customizer") "!"))
-    (div :class "col-lg-4 col-md-4"
-      (h3 (i :class "fa fa-folder-open") " Many Page Options")
-      (p "This template features many common pages that you might see on "
-         "a business website. Pages include: about, contact, portfolio "
-         "variations, blog, pricing, FAQ, 404, services, and general "
-         "multi-purpose pages."))))
+    (section/summary-cell
+      :icon-type "bitcoin"
+      :title "Making Money with Infrastructure"
+      (p "We're building tools to help support rackers make faster, better "
+         "decisions on the support floor. We're creating cutting-edge "
+         "products that will accelerate our core business processes."))
+    (section/summary-cell
+      :icon-type "cloud-upload"
+      :title "Building to Scale"
+      (p "Software that makes it into production stays around longer than "
+         "anyone expects. We're designing systems with world-class "
+         "open source distributed tech, ready to handle heavy, sustained "
+         "loads for the next 5 to 10 years."))
+    (section/summary-cell
+      :icon-type "heart"
+      :title "Living Data")
+      (p "We are collaborating with teams across Rackspace to reimagine "
+         "customer and device data. We're not stopping at map/reduce of "
+         "archives nor real-time streaming of live data -- we are pushing "
+         "every boundary we uncover to bring all Rackers the very best.")))
 
-(defn get-section-2 []
+(defn get-teaser-section []
   (section/centered-well
-    (h2 "Modern Dark Business: A Clean & Simple Full Website Template "
-        "by Start Bootstrap")
-    (p "A complete website design featuring various single page "
-       "templates from Start Bootstraps library of free HTML starter "
-       "templates.")
+    (h2 "And Much More!")
+    (p :class "large-text"
+       "Jump into this site and explore what we're sharing! Everything from "
+       "new projects, to our philosophy about development and open source. "
+       "We're also collaborating with other passionate devs & engineers in "
+       "the company to bring the very best of the computing world to "
+       "Rackspace. One of our greatest passions is a healthy software "
+       "development culture.")
     (hr)))
 
-(defn get-section-3 []
+(defn get-projects-section []
   (section/row
     (div :class "col-lg-12 text-center"
-      (h2 "Display Some Work on the Home Page Portfolio")
+      (h2 "Some of our current projects")
+      (p "In various states of development")
       (hr))
     (div :class "col-lg-4 col-md-4 col-sm-6"
       (a :href "portfolio-item.html"
@@ -68,27 +69,16 @@
          (img :class "img-responsive img-home-portfolio"
               :src "http://placehold.it/700x450")))))
 
-(defn get-section-4 []
-  (section/row
-    (div :class "col-lg-6 col-md-6 col-sm-6"
-      (h2 "Modern Dark Business Features Include")
-      (ul
-        (li "Bootstrap 3 Framework")
-        (li "Mobile Responsive Design")
-        (li "Predefined File Paths")
-        (li "Minimal Custom CSS Styles")
-        (li "Unstyled: Add Your Own Style and Content!")
-        (li "Font-Awesome fonts come pre-installed!")
-        (li "100% " (strong "Free") " to Use")
-        (li "Open Source: Use for any project, private or commercial!")))))
-
-(defn get-section-5 []
+(defn get-next-section []
     (section/container-well
       (div :class "col-lg-8 col-md-8"
-        (h4 "'Modern Dark Business' is a ready-to-use, Bootstrap-3-updated, "
-            "multi-purpose HTML theme!")
-        (p "For more templates and more page options that you can integrate "
-           "into this website template, visit Start Bootstrap!"))
+        (h2 "The Adventure Continues ...")
+        (p :class "large-text"
+           "Keep reading to learn about what business concerns drive our "
+           "daily activities, and how we decide what to work on next."))
       (div :class "col-lg-4 col-md-4"
         (a :class "btn btn-lg btn-primary pull-right"
-           :href "http://startbootstrap.com" "See More Templates!"))))
+           :href "/focus.html" "Next: Our Focus"))))
+
+
+
