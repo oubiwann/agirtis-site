@@ -1,0 +1,73 @@
+(ns content.about
+  (:require [widgets.section :as section]))
+
+
+(defn get-focus-sections []
+  (section/titled-container-full-with-back
+    :title "Focus"
+    :subtitle "on our strengths"
+    (p "TBD")))
+
+(defn get-expertise-sections []
+  (section/titled-container-full-with-back
+    :title "Expertise"
+    :subtitle "of the team"
+    (p "TBD")))
+
+(defn get-about-sections []
+  (section/titled-container-full
+    :title "About"
+    :subtitle "the site"
+    (div :class "hiviz"
+      (h2 "A Touchstone")
+      (img :class "inset-left"
+           :src "images/logos/AGI-RackerTools-InfrastructureServices-Logo.jpg")
+      (p "This site was designed to be a touchstone for members of the "
+         "Infrastructure Services team in Racker Tools. It answers questions "
+         "for newcomers and seasoned veterans alike:")
+      (ul
+        (li "Who are we?")
+        (li "What do we do?")
+        (li "What vision guides our development work?")
+        (li "Where can we make the biggest impact on the business?")
+        (li "What processes can we most effectively influence?")
+        (li "Where should we apply our creativity in devising new services "
+            "for our Support Rackers?"))
+      (p "The AGI group views itself as a collection of teams doing work to "
+         "\"seed clouds\" by combining diverse efforts from is component "
+         "teams.")
+      (p "Racker Tools ⑊ Infrastructure Services has this same vision, but "
+         "with a finer-grained focus on the support Racker and the systems "
+         "that power her and his tools. We help Support Rackers make better "
+         "clouds for our customers.")
+      (h2 "The Barrel Cactus")
+      (p "The cactus pictured in the RT ⑊ IS logo has a mythological status "
+         "as fog-creator, cloud-maker, and rain-bringer. Not only does the "
+         "barrel cactus hold the desert's most valued substance, it has "
+         "legendary status as the natural infrastructure which helps all "
+         "other things partake in that life-sustaining elemnt.")
+      (p "The barrel cactus is RT ⑊ IS's own symbol for seeing clouds and "
+         "brigning the rain.")
+      (h2 "Our Desert")
+      (p "The world of business is a harsh environment; not everyone survies "
+         "and only a few actally thrive. This is even more true for "
+         "technology companies. This desert metaphor is a theme that touches "
+         "marny parts of this site.")
+      (p "When combined with the power of the sun's shining light, clouds "
+         "-- and the rains they bring -- are capable of transforming the "
+         "landscape of a severe business world into something that can "
+         "benefit everyone ... where all can survive and enjoy the fruits "
+         "of life.")
+      (h2 "Background")
+      (p "Finding information about the barrel cactus and ways which some "
+         "native tribes view this fascinating organism can be tricky at best. "
+         "A great in-depth introduction to the Native American tribes of the "
+         "Southwest is provided by the Arizona State Museam housed on the "
+         "campus of the University of Arizona in Tucson. In particular, the "
+         "on-going exhibit "
+         "\"Paths of Life: American Indians of the Southwest\" "
+         "has a "
+         (a :href "http://www.statemuseum.arizona.edu/exhibits/pol/seri1.shtml"
+            "section on the Seri tribe")
+        " which describes the symbolism and importance of the barrel cactus."))))
+

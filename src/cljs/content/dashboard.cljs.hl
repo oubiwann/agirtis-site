@@ -1,0 +1,9 @@
+(ns content.dashboard
+  (:require [widgets.section :as section]))
+
+
+(defn get-section []
+  (section/titled-container-full
+    :title "Dashboard"
+    :subtitle "team metrics"
+    (p "[add graphs and charts]")))
