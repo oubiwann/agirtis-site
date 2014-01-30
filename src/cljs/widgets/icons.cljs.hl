@@ -1,0 +1,5 @@
+(ns widgets.icons)
+
+
+(defn icon [type]
+  (i :class (str "fa fa-" type)))
