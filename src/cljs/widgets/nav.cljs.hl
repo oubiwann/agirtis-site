@@ -23,7 +23,7 @@
       ;; Collect the nav links, forms, and other content for toggling
       (div :class "collapse navbar-collapse navbar-ex1-collapse"
         (ul :class "nav navbar-nav navbar-right"
-          (li (a :class "special" :href "/dashboard.html" "Dashboard"))
+          (li (a :class "special" :href "/rt/is/dashboard.html" "Dashboard"))
           (li (a :href "/rt/is/focus.html" "Focus"))
           (li (a :href "/rt/is/expertise.html" "Expertise"))
           (li :class "dropdown"
