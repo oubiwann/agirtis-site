@@ -1,5 +1,5 @@
 (page "teams/rt.html"
-  (:require [content.sidebar :as content]
+  (:require [content.teams :as content]
             [widgets.footer :as footer]
             [widgets.nav :as nav]))
 
@@ -29,6 +29,6 @@
     ;; navigation menu
     (nav/main-menu)
     ;; main content
-    (content/get-section-with-back nav/teams-sidebar-menu)
+    (content/get-rt-section nav/teams-sidebar-menu)
     ;; footer
     (footer/main "Copyright © RT ⑊ IS, 2014")))
