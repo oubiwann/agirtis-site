@@ -56,7 +56,7 @@
               (li (a :href "/rt/is/events/hack-days.html" "Hack Days"))
               (li (a :href "/rt/is/events/rtsi-allhands.html" "RT⑊IS All Hands"))
               (li (a :href "/rt/is/events/hack-weeks.html" "Hack Weeks"))))
-          (li (a :class "special" :href "/about.html" "About")))))))
+          (li (a :class "special" :href "/rt/is/about.html" "About")))))))
 
 (defn active? [current this]
   (if (= current this) {:class "active"}))
