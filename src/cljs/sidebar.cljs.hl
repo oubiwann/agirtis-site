@@ -27,6 +27,6 @@
     ;; navigation menu
     (nav/main-menu)
     ;; main content
-    (content/get-section)
+    (content/get-section [])
     ;; footer
     (footer/main "Copyright © RT ⑊ IS, 2014")))
