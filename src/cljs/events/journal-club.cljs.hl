@@ -13,17 +13,17 @@
     (meta :name "keywords" :content "")
     (meta :name "author" :content "")
     (title "AGI RT ⑊ IS - Events ⑊ Journal Club")
-    (link :rel "shortcut icon" :href "/images/logos/AGI-RackerTools-InfrastructureServices-Logo-favicon.jpg")
+    (link :rel "shortcut icon" :href "/rt/is/images/logos/AGI-RackerTools-InfrastructureServices-Logo-favicon.jpg")
     ;; Bootstrap core CSS
-    (link :rel "stylesheet" :href "/css/bootstrap-slate.css")
+    (link :rel "stylesheet" :href "/rt/is/css/bootstrap-slate.css")
     ;; Add custom CSS here
-    (link :rel "stylesheet" :href "/css/modern-business.css")
-    (link :rel "stylesheet" :href "/font-awesome/css/font-awesome.min.css")
-    (link :rel "stylesheet" :href "/css/agirtis.css")
+    (link :rel "stylesheet" :href "/rt/is/css/modern-business.css")
+    (link :rel "stylesheet" :href "/rt/is/font-awesome/css/font-awesome.min.css")
+    (link :rel "stylesheet" :href "/rt/is/css/agirtis.css")
     ;; js loading
-    (script :src "/js/jquery-1.11.0.min.js")
-    (script :src "/js/bootstrap.js")
-    (script :src "/js/modern-business.js"))
+    (script :src "/rt/is/js/jquery-1.11.0.min.js")
+    (script :src "/rt/is/js/bootstrap.js")
+    (script :src "/rt/is/js/modern-business.js"))
 
   (body
     ;; navigation menu

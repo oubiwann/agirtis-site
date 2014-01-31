@@ -16,46 +16,46 @@
         ;; good on devices - I recommend using something like retina.js (do a
         ;; quick Google search for it and you'll find it
         (a :class "navbar-brand"
-           :href "/index.html"
+           :href "/rt/is/index.html"
            (span (icon "gears") " AGI RT ⑊ IS")))
           ;;(img :class "menu-logo"
-          ;;     :src "/images/logos/AGI-RackerTools-InfrastructureServices-Logo-x55.jpg")))
+          ;;     :src "/rt/is/images/logos/AGI-RackerTools-InfrastructureServices-Logo-x55.jpg")))
       ;; Collect the nav links, forms, and other content for toggling
       (div :class "collapse navbar-collapse navbar-ex1-collapse"
         (ul :class "nav navbar-nav navbar-right"
           (li (a :class "special" :href "/dashboard.html" "Dashboard"))
-          (li (a :href "/focus.html" "Focus"))
-          (li (a :href "/expertise.html" "Expertise"))
+          (li (a :href "/rt/is/focus.html" "Focus"))
+          (li (a :href "/rt/is/expertise.html" "Expertise"))
           (li :class "dropdown"
             (a :href "#" :class "dropdown-toggle"
                :data-toggle "dropdown" "Teams" (b :class "caret"))
             (ul :class "dropdown-menu"
-              (li (a :href "/teams/product.html" "Product"))
-              (li (a :href "/teams/agi.html" "AGI"))
-              (li (a :href "/teams/rt.html" "Racker Tools"))
-              (li (a :href "/teams/rtis.html" "Infrastructure Services"))
-              (li (a :href "/teams/data-analytics.html" "\u00B7 Data Analytics"))
-              (li (a :href "/teams/encore-integration.html" "\u00B7 Encore Integration"))
-              (li (a :href "/teams/product-stack.html" "\u00B7 Product Stack"))
-              (li (a :href "/teams/distributed-systems.html" "\u00B7 Distributed Systems"))))
+              (li (a :href "/rt/is/teams/product.html" "Product"))
+              (li (a :href "/rt/is/teams/agi.html" "AGI"))
+              (li (a :href "/rt/is/teams/rt.html" "Racker Tools"))
+              (li (a :href "/rt/is/teams/rtis.html" "Infrastructure Services"))
+              (li (a :href "/rt/is/teams/data-analytics.html" "\u00B7 Data Analytics"))
+              (li (a :href "/rt/is/teams/encore-integration.html" "\u00B7 Encore Integration"))
+              (li (a :href "/rt/is/teams/product-stack.html" "\u00B7 Product Stack"))
+              (li (a :href "/rt/is/teams/distributed-systems.html" "\u00B7 Distributed Systems"))))
           (li :class "dropdown"
             (a :href "#" :class "dropdown-toggle"
                :data-toggle "dropdown" "Projects" (b :class "caret"))
             (ul :class "dropdown-menu"
-              (li (a :href "/projects/early-stage.html" "Early Stage/Research"))
-              (li (a :href "/projects/in-dev.html" "In-Development"))
-              (li (a :href "/projects/supported.html" "Deployed"))
-              (li (a :href "/projects/previous.html" "Previous/EOLed"))))
+              (li (a :href "/rt/is/projects/early-stage.html" "Early Stage/Research"))
+              (li (a :href "/rt/is/projects/in-dev.html" "In-Development"))
+              (li (a :href "/rt/is/projects/supported.html" "Deployed"))
+              (li (a :href "/rt/is/projects/previous.html" "Previous/EOLed"))))
           (li :class "dropdown"
             (a :href "#" :class "dropdown-toggle"
                :data-toggle "dropdown" "Events" (b :class "caret"))
             (ul :class "dropdown-menu"
-              (li (a :href "/events/pairing-days.html" "Pairing Days"))
-              (li (a :href "/events/journal-club.html" "Journal Club"))
-              (li (a :href "/events/code-spelunk.html" "Code Spelunk"))
-              (li (a :href "/events/hack-days.html" "Hack Days"))
-              (li (a :href "/events/rtsi-allhands.html" "RT⑊IS All Hands"))
-              (li (a :href "/events/hack-weeks.html" "Hack Weeks"))))
+              (li (a :href "/rt/is/events/pairing-days.html" "Pairing Days"))
+              (li (a :href "/rt/is/events/journal-club.html" "Journal Club"))
+              (li (a :href "/rt/is/events/code-spelunk.html" "Code Spelunk"))
+              (li (a :href "/rt/is/events/hack-days.html" "Hack Days"))
+              (li (a :href "/rt/is/events/rtsi-allhands.html" "RT⑊IS All Hands"))
+              (li (a :href "/rt/is/events/hack-weeks.html" "Hack Weeks"))))
           (li (a :class "special" :href "/about.html" "About")))))))
 
 (defn active? [current this]
@@ -65,36 +65,36 @@
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
       (li (active? current :prod)
-          (a :href "/teams/product.html" "Product"))
+          (a :href "/rt/is/teams/product.html" "Product"))
       (li (active? current :agi)
-          (a :href "/teams/agi.html" "AGI"))
+          (a :href "/rt/is/teams/agi.html" "AGI"))
       (li (active? current :rt)
-          (a :href "/teams/rt.html" "Racker Tools"))
+          (a :href "/rt/is/teams/rt.html" "Racker Tools"))
       (li (active? current :rtsi)
-          (a :href "/teams/rtis.html" "Infrastructure Services"))
+          (a :href "/rt/is/teams/rtis.html" "Infrastructure Services"))
       (li (active? current :da)
-          (a :href "/teams/data-analytics.html" "\u00B7 Data Analytics"))
+          (a :href "/rt/is/teams/data-analytics.html" "\u00B7 Data Analytics"))
       (li (active? current :ei)
-          (a :href "/teams/encore-integration.html" "\u00B7 Encore Integration"))
+          (a :href "/rt/is/teams/encore-integration.html" "\u00B7 Encore Integration"))
       (li (active? current :ps)
-          (a :href "/teams/product-stack.html" "\u00B7 Product Stack"))
+          (a :href "/rt/is/teams/product-stack.html" "\u00B7 Product Stack"))
       (li (active? current :ds)
-          (a :href "/teams/distributed-systems.html" "\u00B7 Distributed Systems")))))
+          (a :href "/rt/is/teams/distributed-systems.html" "\u00B7 Distributed Systems")))))
 
 (defn projects-sidebar-menu []
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
-      (li (a :href "/projects/early-stage.html" "Early Stage/Research"))
-      (li (a :href "/projects/in-dev.html" "In-Development"))
-      (li (a :href "/projects/supported.html" "Deployed"))
-      (li (a :href "/projects/previous.html" "Previous/EOLed")))))
+      (li (a :href "/rt/is/projects/early-stage.html" "Early Stage/Research"))
+      (li (a :href "/rt/is/projects/in-dev.html" "In-Development"))
+      (li (a :href "/rt/is/projects/supported.html" "Deployed"))
+      (li (a :href "/rt/is/projects/previous.html" "Previous/EOLed")))))
 
 (defn events-sidebar-menu []
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
-      (li (a :href "/events/pairing-days.html" "Pairing Days"))
-      (li (a :href "/events/journal-club.html" "Journal Club"))
-      (li (a :href "/events/code-spelunk.html" "Code Spelunk"))
-      (li (a :href "/events/hack-days.html" "Hack Days"))
-      (li (a :href "/events/rtsi-allhands.html" "RT⑊IS All Hands"))
-      (li (a :href "/events/hack-weeks.html" "Hack Weeks")))))
+      (li (a :href "/rt/is/events/pairing-days.html" "Pairing Days"))
+      (li (a :href "/rt/is/events/journal-club.html" "Journal Club"))
+      (li (a :href "/rt/is/events/code-spelunk.html" "Code Spelunk"))
+      (li (a :href "/rt/is/events/hack-days.html" "Hack Days"))
+      (li (a :href "/rt/is/events/rtsi-allhands.html" "RT⑊IS All Hands"))
+      (li (a :href "/rt/is/events/hack-weeks.html" "Hack Weeks")))))
