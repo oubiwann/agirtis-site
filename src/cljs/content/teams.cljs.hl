@@ -1,0 +1,170 @@
+(ns content.teams
+  (:require [widgets.nav :as nav]
+            [widgets.section :as section]))
+
+
+(defn get-product-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ Product"
+        :subtitle "our parent org"
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
+(defn get-agi-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ AGI"
+        :subtitle "comprising the whole"
+        (ol :class "breadcrumb"
+          (li (a :href "/teams/product.html" "Product")))
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
+(defn get-rt-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ Racker Tools"
+        :subtitle "the magical workshop elves"
+        (ol :class "breadcrumb"
+          (li (a :href "/teams/product.html" "Product"))
+          (li (a :href "/teams/agi.html" "AGI")))
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
+(defn get-rtsi-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ Infrastructure Services"
+        :subtitle "form to function"
+        (ol :class "breadcrumb"
+          (li (a :href "/teams/product.html" "Product"))
+          (li (a :href "/teams/agi.html" "AGI"))
+          (li (a :href "/teams/rt.html" "RT")))
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
+(defn get-data-analytics-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ Data Analytics"
+        :subtitle "brains with brawn"
+        (ol :class "breadcrumb"
+          (li (a :href "/teams/product.html" "Product"))
+          (li (a :href "/teams/agi.html" "AGI"))
+          (li (a :href "/teams/rt.html" "RT"))
+          (li (a :href "/teams/rtis.html" "IS")))
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
+(defn get-distributed-systems-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ Distributed Systems"
+        :subtitle "extending our reach"
+        (ol :class "breadcrumb"
+          (li (a :href "/teams/product.html" "Product"))
+          (li (a :href "/teams/agi.html" "AGI"))
+          (li (a :href "/teams/rt.html" "RT"))
+          (li (a :href "/teams/rtis.html" "IS")))
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
+(defn get-encore-integration-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ Encore Integration"
+        :subtitle "realizing the dream"
+        (ol :class "breadcrumb"
+          (li (a :href "/teams/product.html" "Product"))
+          (li (a :href "/teams/agi.html" "AGI"))
+          (li (a :href "/teams/rt.html" "RT"))
+          (li (a :href "/teams/rtis.html" "IS")))
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
+(defn get-product-stack-section [menu-func]
+  (div :class "container"
+    (div :class "row well"
+      (menu-func)
+      (section/container-sidebar
+        :title "Teams ⑊ Product Stack"
+        :subtitle "giving our offerings legs"
+        (ol :class "breadcrumb"
+          (li (a :href "/teams/product.html" "Product"))
+          (li (a :href "/teams/agi.html" "AGI"))
+          (li (a :href "/teams/rt.html" "RT"))
+          (li (a :href "/teams/rtis.html" "IS")))
+        (p "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc "
+           "placerat diam quis nisl vestibulum dignissim. In hac habitasse "
+           "platea dictumst. Interdum et malesuada fames ac ante ipsum primis "
+           "in faucibus. Pellentesque habitant morbi tristique senectus et "
+           "netus et malesuada fames ac turpis egestas. Etiam placerat nunc "
+           "ut tellus tristique, non posuere neque iaculis. Fusce aliquet dui"
+           " ut felis rhoncus, vitae molestie mauris auctor. Donec "
+           "pellentesque feugiat leo a adipiscing. Pellentesque quis "
+           "tristique eros, sed rutrum mauris.")))))
+
