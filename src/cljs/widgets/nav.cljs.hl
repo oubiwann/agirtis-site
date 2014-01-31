@@ -58,17 +58,28 @@
               (li (a :href "/events/hack-weeks.html" "Hack Weeks"))))
           (li (a :class "special" :href "/about.html" "About")))))))
 
-(defn teams-sidebar-menu []
+(defn active? [current this]
+  (if (= current this) {:class "active"}))
+
+(defn teams-sidebar-menu [current]
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
-      (li (a :href "/teams/product.html" "Product"))
-      (li (a :href "/teams/agi.html" "AGI"))
-      (li (a :href "/teams/rt.html" "Racker Tools"))
-      (li (a :href "/teams/rtis.html" "Infrastructure Services"))
-      (li (a :href "/teams/data-analytics.html" "\u00B7 Data Analytics"))
-      (li (a :href "/teams/encore-integration.html" "\u00B7 Encore Integration"))
-      (li (a :href "/teams/product-stack.html" "\u00B7 Product Stack"))
-      (li (a :href "/teams/distributed-systems.html" "\u00B7 Distributed Systems")))))
+      (li (active? current :prod)
+          (a :href "/teams/product.html" "Product"))
+      (li (active? current :agi)
+          (a :href "/teams/agi.html" "AGI"))
+      (li (active? current :rt)
+          (a :href "/teams/rt.html" "Racker Tools"))
+      (li (active? current :rtsi)
+          (a :href "/teams/rtis.html" "Infrastructure Services"))
+      (li (active? current :da)
+          (a :href "/teams/data-analytics.html" "\u00B7 Data Analytics"))
+      (li (active? current :ei)
+          (a :href "/teams/encore-integration.html" "\u00B7 Encore Integration"))
+      (li (active? current :ps)
+          (a :href "/teams/product-stack.html" "\u00B7 Product Stack"))
+      (li (active? current :ds)
+          (a :href "/teams/distributed-systems.html" "\u00B7 Distributed Systems")))))
 
 (defn projects-sidebar-menu []
   (div :class "col-md-3 col-sm-4 sidebar"

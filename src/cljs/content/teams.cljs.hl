@@ -6,7 +6,7 @@
 (defn get-product-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :prod)
       (section/container-sidebar
         :title "Teams ⑊ Product"
         :subtitle "our parent org"
@@ -23,7 +23,7 @@
 (defn get-agi-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :agi)
       (section/container-sidebar
         :title "Teams ⑊ AGI"
         :subtitle "comprising the whole"
@@ -42,7 +42,7 @@
 (defn get-rt-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :rt)
       (section/container-sidebar
         :title "Teams ⑊ Racker Tools"
         :subtitle "the magical workshop elves"
@@ -62,7 +62,7 @@
 (defn get-rtsi-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :rtsi)
       (section/container-sidebar
         :title "Teams ⑊ Infrastructure Services"
         :subtitle "form to function"
@@ -83,7 +83,7 @@
 (defn get-data-analytics-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :da)
       (section/container-sidebar
         :title "Teams ⑊ Data Analytics"
         :subtitle "brains with brawn"
@@ -105,7 +105,7 @@
 (defn get-distributed-systems-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :ds)
       (section/container-sidebar
         :title "Teams ⑊ Distributed Systems"
         :subtitle "extending our reach"
@@ -127,7 +127,7 @@
 (defn get-encore-integration-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :ei)
       (section/container-sidebar
         :title "Teams ⑊ Encore Integration"
         :subtitle "realizing the dream"
@@ -149,7 +149,7 @@
 (defn get-product-stack-section [menu-func]
   (div :class "container"
     (div :class "row well"
-      (menu-func)
+      (menu-func :ps)
       (section/container-sidebar
         :title "Teams ⑊ Product Stack"
         :subtitle "giving our offerings legs"
