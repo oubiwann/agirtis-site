@@ -12,6 +12,6 @@
                   [io.cogitat.bootdemo :refer :all]
                   [io.cogitat.boot :refer :all]
                   [io.cogitat.devserver :refer :all]}
- :public "resources/public"
+ :public "resources/public/rt/is"
  :src-static #{"resources/assets"}
  :src-paths #{"src/cljs" "src/clj"}}
