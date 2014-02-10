@@ -61,7 +61,31 @@
 (defn active? [current this]
   (if (= current this) {:class "active"}))
 
+(defn make-sidebar-menu [current link-data]
+  (.log js/console link-data)
+  (div :class "col-md-3 col-sm-4 sidebar"
+    (ul :class "nav nav-stacked nav-pills"
+      (map #(li (active? current %1)
+                (a :href %3 %2))
+           link-data))))
+
+(def teams-sidebar-data
+  [[:prod "Product" "/rt/is/teams/product.html"]
+   [:agi "AGI" "/rt/is/teams/agi.html"]
+   [:rt "Racker Tools" "/rt/is/teams/rt.html"]
+   [:rtsi "Infrastructure Services" "/rt/is/teams/rtis.html"]
+   [:da "\u00B7 Data Analytics" "/rt/is/teams/data-analytics.html"]
+   [:ei "\u00B7 Encore Integration" "/rt/is/teams/encore-integration.html"]
+   [:ps "\u00B7 Product Stack" "/rt/is/teams/product-stack.html"]
+   [:ds "\u00B7 Distributed Systems" "/rt/is/teams/distributed-systems.html"]])
+
 (defn teams-sidebar-menu [current]
+  (.log js/console current)
+  (make-sidebar-menu
+    current
+    teams-sidebar-data))
+
+(defn teams-sidebar-menu-old [current]
   (div :class "col-md-3 col-sm-4 sidebar"
     (ul :class "nav nav-stacked nav-pills"
       (li (active? current :prod)

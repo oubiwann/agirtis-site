@@ -6,13 +6,30 @@
   (section/titled-container-full-with-back
     :title "Focus"
     :subtitle "on our strengths"
-    (p "TBD")))
+    (p "We know the internals of Rackspace bsuiness better than anyone. We "
+       "know it at the level or wires, plumbing, attics, and basements. "
+       "Where no one else dares go. The the most crucial \"piece\" of "
+       "software in our business, this sort of knowledge has deep value to "
+       "the company.")
+    (p "We are passionate about software engineering, building structures "
+       "that will survive -- and help others do the same. We are also "
+       "scientists, methematicians, and tinkerers. All of these form a "
+       "powerful combination or rich potential and staying power.")
+    (p "Our goal is to focus these strengths in accomplishing a vision "
+       "for Racker Tools of building a globally distributed services-based "
+       "system for powering Rackspace's core business.")))
 
 (defn get-expertise-sections []
   (section/titled-container-full-with-back
     :title "Expertise"
     :subtitle "of the team"
-    (p "TBD")))
+    (p "We have expertise ranging from providing advanced support, to "
+       "systems administration; from DBAs to data architecture and "
+       "machine learning; from systems scripting and deployment to "
+       "creating wire protocols and building massively scalabale distributed "
+       "systems.")
+    (p "We have everything you need to bring the dream of Encore "
+       "Infrastructure to reality.")))
 
 (defn get-about-sections []
   (section/titled-container-full
